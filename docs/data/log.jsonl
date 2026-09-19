@@ -10,3 +10,8 @@
 {"at": "2026-09-19T00:23:08+00:00", "date": "2026-09-19", "event": "push", "mode": "morning", "new": 2, "review": 0}
 {"at": "2026-09-19T00:24:53+00:00", "date": "2026-09-19", "event": "graded", "id": "exp_0003", "text": "a long shot", "grade": "know", "kind": "g"}
 {"at": "2026-09-19T00:24:56+00:00", "date": "2026-09-19", "event": "graded", "id": "exp_0004", "text": "call it a day", "grade": "too_easy", "kind": "g"}
+{"at": "2026-09-19T00:56:15+00:00", "date": "2026-09-19", "event": "quiz", "mode": "evening", "id": "exp_0001"}
+{"at": "2026-09-19T00:56:16+00:00", "date": "2026-09-19", "event": "quiz", "mode": "evening", "id": "exp_0002"}
+{"at": "2026-09-19T00:56:17+00:00", "date": "2026-09-19", "event": "quiz", "mode": "evening", "id": "exp_0003"}
+{"at": "2026-09-19T00:56:17+00:00", "date": "2026-09-19", "event": "quiz", "mode": "evening", "id": "exp_0004"}
+{"at": "2026-09-19T00:56:23+00:00", "date": "2026-09-19", "event": "push", "mode": "evening", "count": 4}
