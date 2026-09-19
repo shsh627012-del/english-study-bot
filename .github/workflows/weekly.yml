@@ -1,0 +1,30 @@
+name: 주간 리포트
+
+on:
+  schedule:
+    - cron: "0 11 * * 0"   # KST 일요일 20:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+
+      - name: 리포트 발송
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m src.report
+
+      - uses: ./.github/actions/commit-data
+        with:
+          message: 주간 리포트

@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.tmp/
+*.srt
+*.vtt
+.DS_Store
+*.env
+!.env.example
+_build_seed.py

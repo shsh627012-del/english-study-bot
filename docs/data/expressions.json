@@ -1,0 +1,1182 @@
+{
+  "expressions": [
+    {
+      "id": "exp_0001",
+      "text": "cut corners",
+      "pos": "idiom",
+      "definition_en": "to save time or money by doing less than you usually do or than you should do",
+      "definition_label": "often disapproving",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/corner"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "We don't have enough money to pay for everything, so we'll have to cut corners somewhere.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/corner"
+          },
+          "audio": null
+        },
+        {
+          "en": "I never cut corners.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #8865135",
+            "url": "https://tatoeba.org/en/sentences/show/8865135"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/738665",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "You should never cut corners on safety.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/corner"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/cut+corners/us",
+        "dict_audio": null,
+        "dict_word": "corners",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/corner01.mp3",
+        "mw_audio_word": "corner",
+        "tts_file": "audio/exp_0001.mp3",
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:48:40+00:00",
+      "status": "active",
+      "priority": 0
+    },
+    {
+      "id": "exp_0002",
+      "text": "get the hang of",
+      "pos": "idiom",
+      "definition_en": "to learn the skills that are needed to do (something)",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/hang"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "He was finally getting the hang of his job.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/hang"
+          },
+          "audio": null
+        },
+        {
+          "en": "I'll get the hang of it.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #2546082",
+            "url": "https://tatoeba.org/en/sentences/show/2546082"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/148122",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "She's getting the hang of driving.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/hang"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/get+the+hang+of/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-hang.ogg",
+        "dict_word": "hang",
+        "mw_audio": null,
+        "mw_audio_word": "hang",
+        "tts_file": "audio/exp_0002.mp3",
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:48:46+00:00",
+      "status": "active",
+      "priority": 0
+    },
+    {
+      "id": "exp_0003",
+      "text": "a long shot",
+      "pos": "idiom",
+      "definition_en": "an attempt or effort that is not likely to be successful",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/long%20shot"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "I hope to double my profits, but I know that's a long shot.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/long%20shot"
+          },
+          "audio": null
+        },
+        {
+          "en": "This is a long shot.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #9711624",
+            "url": "https://tatoeba.org/en/sentences/show/9711624"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/980976",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "The horse was a long shot, but we bet on him anyway.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/long%20shot"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/a+long+shot/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-long.ogg",
+        "dict_word": "long",
+        "mw_audio": null,
+        "mw_audio_word": "long shot",
+        "tts_file": "audio/exp_0003.mp3",
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:48:49+00:00",
+      "status": "active",
+      "priority": 0
+    },
+    {
+      "id": "exp_0004",
+      "text": "call it a day",
+      "pos": "idiom",
+      "definition_en": "to stop an activity (such as work) for the remainder of the day or night",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/call"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "We've done enough work for now: let's call it a day.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/call"
+          },
+          "audio": null
+        },
+        {
+          "en": "Tom called it a day.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #1543969",
+            "url": "https://tatoeba.org/en/sentences/show/1543969"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/74636",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "It's getting late. I think we should call it a night.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/call"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/call+it+a+day/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-call.ogg",
+        "dict_word": "call",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/call0001.mp3",
+        "mw_audio_word": "call",
+        "tts_file": "audio/exp_0004.mp3",
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:48:53+00:00",
+      "status": "retired",
+      "priority": 0
+    },
+    {
+      "id": "exp_0005",
+      "text": "beat around the bush",
+      "pos": "idiom",
+      "definition_en": "to avoid saying something by talking about other things",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/bush"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "Stop beating around the bush and tell me why you're here.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/bush"
+          },
+          "audio": null
+        },
+        {
+          "en": "Don't beat around the bush.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #22322",
+            "url": "https://tatoeba.org/en/sentences/show/22322"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/3977",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "Quit beating around the bush.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #8349028",
+            "url": "https://tatoeba.org/en/sentences/show/8349028"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/697527",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/beat+around+the+bush/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-beat.ogg",
+        "dict_word": "beat",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/b/bush0001.mp3",
+        "mw_audio_word": "bush",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:48:56+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0006",
+      "text": "on the fence",
+      "pos": "idiom",
+      "definition_en": "unable to decide about something",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/fence"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "He tried to persuade those still (sitting) on the fence to vote in his favor.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/fence"
+          },
+          "audio": null
+        },
+        {
+          "en": "We sat on the fence.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #9636033",
+            "url": "https://tatoeba.org/en/sentences/show/9636033"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/815532",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "Tom sat on the fence.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #5001435",
+            "url": "https://tatoeba.org/en/sentences/show/5001435"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/275697",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/on+the+fence/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-fence.ogg",
+        "dict_word": "fence",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/f/fence001.mp3",
+        "mw_audio_word": "fence",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:00+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0007",
+      "text": "bite the bullet",
+      "pos": "idiom",
+      "definition_en": "to do something unpleasant or painful because it is necessary even though you would like to avoid it",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/bite"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "We need to bite the bullet and make some budget cuts.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/bite"
+          },
+          "audio": null
+        },
+        {
+          "en": "Bite the bullet.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #22606",
+            "url": "https://tatoeba.org/en/sentences/show/22606"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/4001",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "I'll bite the bullet.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #22605",
+            "url": "https://tatoeba.org/en/sentences/show/22605"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/619155",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/bite+the+bullet/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-bullet.ogg",
+        "dict_word": "bullet",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/b/bite0001.mp3",
+        "mw_audio_word": "bite",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:03+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0008",
+      "text": "touch base",
+      "pos": "idiom",
+      "definition_en": "to meet and talk as a way of learning about recent news",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/base"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "Let's get together for lunch next week to touch base.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/base"
+          },
+          "audio": null
+        },
+        {
+          "en": "We will definitely touch base with you guys.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #1515495",
+            "url": "https://tatoeba.org/en/sentences/show/1515495"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/1074930",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "He attended the conference for a chance to touch base with other people in the computer industry.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/base"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/touch+base/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-touch.ogg",
+        "dict_word": "touch",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/b/base0001.mp3",
+        "mw_audio_word": "base",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:06+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0009",
+      "text": "off the top of my head",
+      "pos": "idiom",
+      "definition_en": "immediately by thinking quickly about something",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/top"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "Off the top of my head, I can think of three people who might be interested.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/top"
+          },
+          "audio": null
+        },
+        {
+          "en": "I don't know off the top of my head.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #2493131",
+            "url": "https://tatoeba.org/en/sentences/show/2493131"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/1067236",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "I can't remember her name off the top of my head.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/top"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/off+the+top+of+my+head/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-head.ogg",
+        "dict_word": "head",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/top00001.mp3",
+        "mw_audio_word": "top",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:10+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0010",
+      "text": "a blessing in disguise",
+      "pos": "idiom",
+      "definition_en": "A seeming misfortune that turns out to be for the best.",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/blessing_in_disguise"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "It's a blessing in disguise.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #2171660",
+            "url": "https://tatoeba.org/en/sentences/show/2171660"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/608906",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "It is a blessing in disguise.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #10986424",
+            "url": "https://tatoeba.org/en/sentences/show/10986424"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/1052079",
+            "author": "CVeng794"
+          }
+        },
+        {
+          "en": "It was a blessing in disguise.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #8353275",
+            "url": "https://tatoeba.org/en/sentences/show/8353275"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/720213",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/a+blessing+in+disguise/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-blessing.ogg",
+        "dict_word": "blessing",
+        "mw_audio": null,
+        "mw_audio_word": null,
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:18+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0011",
+      "text": "jump through hoops",
+      "pos": "idiom",
+      "definition_en": "to do a complicated or annoying series of things in order to get or achieve something",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/jump"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "We had to jump through a lot of hoops to get a loan from the bank.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/jump"
+          },
+          "audio": null
+        },
+        {
+          "en": "Tom made me jump through hoops.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #5789373",
+            "url": "https://tatoeba.org/en/sentences/show/5789373"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/880928",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "It shouldn't be necessary to jump through hoops to get a computer to work properly.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/jump"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/jump+through+hoops/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1860%20%28eng%29-Vealhurl-hoops.wav",
+        "dict_word": "hoops",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/j/jump0001.mp3",
+        "mw_audio_word": "jump",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:27+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0012",
+      "text": "go out on a limb",
+      "pos": "idiom",
+      "definition_en": "in or into a risky or dangerous position or situation",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/limb"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "She went out on a limb to help you.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/limb"
+          },
+          "audio": null
+        },
+        {
+          "en": "I don't want to go out on a limb.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #67763",
+            "url": "https://tatoeba.org/en/sentences/show/67763"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/696424",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "If you try to oppose the boss yourself, you're likely to get caught out on a limb.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/limb"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/go+out+on+a+limb/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-limb.ogg",
+        "dict_word": "limb",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/l/limb0001.mp3",
+        "mw_audio_word": "limb",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:34+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0013",
+      "text": "take it with a grain of salt",
+      "pos": "idiom",
+      "definition_en": "to not completely believe (something) to be doubtful about the truth or accuracy of (something)",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/salt"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "He seems confident, but you should take what he says with a grain of salt.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/salt"
+          },
+          "audio": null
+        },
+        {
+          "en": "Sami was taking it with a grain of salt.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #7246649",
+            "url": "https://tatoeba.org/en/sentences/show/7246649"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/take+it+with+a+grain+of+salt/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-grain.ogg",
+        "dict_word": "grain",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/s/salt0001.mp3",
+        "mw_audio_word": "salt",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:37+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0014",
+      "text": "play devil's advocate",
+      "pos": "idiom",
+      "definition_en": "a person who expresses an opinion that disagrees with others so that there will be an interesting discussion about some issue",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/devil%27s%20advocate"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "Teachers often play devil's advocate to provoke discussion in the classroom.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/devil%27s%20advocate"
+          },
+          "audio": null
+        },
+        {
+          "en": "Stop playing devil's advocate.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #9505180",
+            "url": "https://tatoeba.org/en/sentences/show/9505180"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/861274",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "Stop playing devil's advocate, Tom.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #9505179",
+            "url": "https://tatoeba.org/en/sentences/show/9505179"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/861273",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/play+devil%27s+advocate/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-advocate-noun.ogg",
+        "dict_word": "advocate",
+        "mw_audio": null,
+        "mw_audio_word": "devil's advocate",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:40+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0015",
+      "text": "get cold feet",
+      "pos": "idiom",
+      "definition_en": "a feeling of worry or doubt that is strong enough to stop you from doing something that you planned to do",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/cold%20feet"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "He was going to ask her to marry him, but he got cold feet and couldn't do it.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/cold%20feet"
+          },
+          "audio": null
+        },
+        {
+          "en": "He's getting cold feet.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #303271",
+            "url": "https://tatoeba.org/en/sentences/show/303271"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/22044",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "Tom is getting cold feet.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #3428319",
+            "url": "https://tatoeba.org/en/sentences/show/3428319"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/211131",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/get+cold+feet/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/En-us-cold.ogg",
+        "dict_word": "cold",
+        "mw_audio": null,
+        "mw_audio_word": "cold feet",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:51+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0016",
+      "text": "run something by someone",
+      "pos": "phrasal_verb",
+      "definition_en": "to tell (something) to (someone) so that it can be considered, approved, etc.",
+      "definition_label": null,
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/run"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "You'd better run this past the boss.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/run"
+          },
+          "audio": null
+        },
+        {
+          "en": "He ran some ideas by her.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/run"
+          },
+          "audio": null
+        },
+        {
+          "en": "(informal) Can you run that by me again?",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/run"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/run+something+by+someone/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-run.ogg",
+        "dict_word": "run",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/r/run00001.mp3",
+        "mw_audio_word": "run",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:49:55+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0017",
+      "text": "be swamped",
+      "pos": "idiom",
+      "definition_en": "very busy; having too much to do",
+      "definition_label": "informal",
+      "definition_source": {
+        "name": "Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/swamped"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "They have been swamped ever since they started advertising.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Wiktionary",
+            "url": "https://en.wiktionary.org/wiki/swamped"
+          },
+          "audio": null
+        },
+        {
+          "en": "You'll probably be swamped with responses.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #3727004",
+            "url": "https://tatoeba.org/en/sentences/show/3727004"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/1073802",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "He can’t talk to you right now; he’s swamped.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Wiktionary",
+            "url": "https://en.wiktionary.org/wiki/swamped"
+          },
+          "audio": null
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/be+swamped/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/en-us-swamp.ogg",
+        "dict_word": "swamped",
+        "mw_audio": null,
+        "mw_audio_word": null,
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:50:00+00:00",
+      "status": "pool",
+      "priority": 0
+    },
+    {
+      "id": "exp_0018",
+      "text": "drop the ball",
+      "pos": "idiom",
+      "definition_en": "to make a mistake especially by not doing something important",
+      "definition_label": "US, informal",
+      "definition_source": {
+        "name": "Merriam-Webster Learner's",
+        "url": "https://www.learnersdictionary.com/definition/ball"
+      },
+      "meaning_ko": null,
+      "ko_origin": null,
+      "examples": [
+        {
+          "en": "I think the mayor dropped the ball by not hiring more police officers.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Merriam-Webster Learner's",
+            "url": "https://www.learnersdictionary.com/definition/ball"
+          },
+          "audio": null
+        },
+        {
+          "en": "I dropped the ball.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #5858081",
+            "url": "https://tatoeba.org/en/sentences/show/5858081"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/329274",
+            "author": "CK"
+          }
+        },
+        {
+          "en": "Tom dropped the ball.",
+          "ko": null,
+          "ko_origin": null,
+          "source": {
+            "name": "Tatoeba #1538662",
+            "url": "https://tatoeba.org/en/sentences/show/1538662"
+          },
+          "audio": {
+            "url": "https://tatoeba.org/audio/download/74467",
+            "author": "CK"
+          }
+        }
+      ],
+      "pronunciation": {
+        "ipa": null,
+        "youglish": "https://youglish.com/pronounce/drop+the+ball/us",
+        "dict_audio": "https://commons.wikimedia.org/wiki/Special:FilePath/En-us-drop.ogg",
+        "dict_word": "drop",
+        "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/b/ball0001.mp3",
+        "mw_audio_word": "ball",
+        "tts_file": null,
+        "source_clip": null
+      },
+      "source": {
+        "type": "seed",
+        "ref": null
+      },
+      "created_at": "2026-09-18T23:50:03+00:00",
+      "status": "pool",
+      "priority": 0
+    }
+  ]
+}

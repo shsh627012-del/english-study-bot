@@ -1,0 +1,6 @@
+requests>=2.31.0
+gTTS>=2.5.0
+feedparser>=6.0.0
+yt-dlp>=2024.1.0
+python-dotenv>=1.0.0
+tzdata>=2024.1        # Windows 에는 시스템 시간대 DB 가 없다

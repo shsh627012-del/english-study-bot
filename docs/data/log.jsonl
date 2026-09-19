@@ -1,0 +1,12 @@
+{"at": "2026-09-16T15:38:14+00:00", "date": "2026-09-16", "event": "ingested", "source": "seed", "count": 20}
+{"at": "2026-09-18T23:50:03+00:00", "date": "2026-09-19", "event": "ingested", "source": "seed", "count": 18}
+{"at": "2026-09-19T00:13:39+00:00", "date": "2026-09-19", "event": "sent", "mode": "morning", "kind": "new", "id": "exp_0001", "text": "cut corners"}
+{"at": "2026-09-19T00:13:49+00:00", "date": "2026-09-19", "event": "sent", "mode": "morning", "kind": "new", "id": "exp_0002", "text": "get the hang of"}
+{"at": "2026-09-19T00:13:49+00:00", "date": "2026-09-19", "event": "push", "mode": "morning", "new": 2, "review": 0}
+{"at": "2026-09-19T00:21:58+00:00", "date": "2026-09-19", "event": "graded", "id": "exp_0001", "text": "cut corners", "grade": "unknown", "kind": "g"}
+{"at": "2026-09-19T00:21:59+00:00", "date": "2026-09-19", "event": "graded", "id": "exp_0002", "text": "get the hang of", "grade": "know", "kind": "g"}
+{"at": "2026-09-19T00:23:00+00:00", "date": "2026-09-19", "event": "sent", "mode": "morning", "kind": "new", "id": "exp_0003", "text": "a long shot"}
+{"at": "2026-09-19T00:23:08+00:00", "date": "2026-09-19", "event": "sent", "mode": "morning", "kind": "new", "id": "exp_0004", "text": "call it a day"}
+{"at": "2026-09-19T00:23:08+00:00", "date": "2026-09-19", "event": "push", "mode": "morning", "new": 2, "review": 0}
+{"at": "2026-09-19T00:24:53+00:00", "date": "2026-09-19", "event": "graded", "id": "exp_0003", "text": "a long shot", "grade": "know", "kind": "g"}
+{"at": "2026-09-19T00:24:56+00:00", "date": "2026-09-19", "event": "graded", "id": "exp_0004", "text": "call it a day", "grade": "too_easy", "kind": "g"}

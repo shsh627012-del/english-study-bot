@@ -1,0 +1,23 @@
+name: 실행 환경 준비
+description: Python 3.12 + 의존성 + ffmpeg 를 준비한다.
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        cache: pip
+
+    - name: 의존성 설치
+      shell: bash
+      run: pip install --quiet -r requirements.txt
+
+    - name: ffmpeg 확인
+      shell: bash
+      run: |
+        # 음성 메시지(OGG/OPUS) 변환에 필요하다. 러너에 대개 이미 깔려 있다.
+        if ! command -v ffmpeg >/dev/null; then
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        fi
+        ffmpeg -version | head -1

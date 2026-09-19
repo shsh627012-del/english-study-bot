@@ -1,0 +1,57 @@
+name: 표현 발송
+
+on:
+  schedule:
+    # GitHub cron 은 UTC 다. 정시는 혼잡하므로 :10 에 예약한다.
+    - cron: "10 23 * * *"   # KST 08:10 — 새 표현 + 복습
+    - cron: "10 12 * * *"   # KST 21:10 — 퀴즈 + 섀도잉
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 발송 모드
+        type: choice
+        options: [morning, evening]
+        default: morning
+      force:
+        description: 오늘 이미 보냈어도 다시 보내기
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+
+      - name: 발송 모드 결정
+        id: pick
+        run: |
+          FORCE=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+            if [ "${{ inputs.force }}" = "true" ]; then FORCE="--force"; fi
+          elif [ "${{ github.event.schedule }}" = "10 23 * * *" ]; then
+            echo "mode=morning" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=evening" >> "$GITHUB_OUTPUT"
+          fi
+          echo "force=$FORCE" >> "$GITHUB_OUTPUT"
+
+      - name: 발송
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MERRIAM_WEBSTER_KEY: ${{ secrets.MERRIAM_WEBSTER_KEY }}
+        run: python -m src.push --${{ steps.pick.outputs.mode }} ${{ steps.pick.outputs.force }}
+
+      - uses: ./.github/actions/commit-data
+        with:
+          message: "발송 기록 (${{ steps.pick.outputs.mode }})"

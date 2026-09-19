@@ -1,0 +1,31 @@
+name: 응답 수거
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # 20분마다 — 버튼 응답·링크·첨삭 요청을 가져온다
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+
+      - name: getUpdates 처리
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MERRIAM_WEBSTER_KEY: ${{ secrets.MERRIAM_WEBSTER_KEY }}
+        run: python -m src.poll
+
+      - uses: ./.github/actions/commit-data
+        with:
+          message: 응답 수거

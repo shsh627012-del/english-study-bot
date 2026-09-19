@@ -1,0 +1,51 @@
+name: 표현 보충
+
+on:
+  schedule:
+    - cron: "0 18 * * 0,3"   # KST 월·목 03:00
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 생성 개수 (0 = 자동)
+        default: "0"
+      news:
+        description: 영어 뉴스에서도 추출
+        type: boolean
+        default: true
+      force:
+        description: 풀이 충분해도 실행
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+
+      - name: 표현 생성·추출
+        env:
+          MERRIAM_WEBSTER_KEY: ${{ secrets.MERRIAM_WEBSTER_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          ARGS="--news"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ARGS=""
+            if [ "${{ inputs.news }}"  = "true" ]; then ARGS="$ARGS --news"; fi
+            if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+            if [ "${{ inputs.count }}" != "0" ];  then ARGS="$ARGS -n ${{ inputs.count }}"; fi
+          fi
+          python -m src.ingest $ARGS
+
+      - uses: ./.github/actions/commit-data
+        with:
+          message: 표현 보충
