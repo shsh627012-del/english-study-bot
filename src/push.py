@@ -126,7 +126,10 @@ def _voice_path(exp: dict) -> Path | None:
     rel = exp.get("pronunciation", {}).get("tts_file")
     if rel:
         p = config.DOCS / rel
-        if p.exists():
+        # ffmpeg 없는 곳(로컬 Windows)에서 만든 mp3 는 합성음뿐이고 음성 메시지도 아니다.
+        # ffmpeg 이 있으면 원어민 녹음을 섞은 ogg 로 다시 만든다.
+        stale = p.suffix == ".mp3" and pronounce._have_ffmpeg()
+        if p.exists() and not stale:
             return p
     return pronounce.build_voice(exp)
 
