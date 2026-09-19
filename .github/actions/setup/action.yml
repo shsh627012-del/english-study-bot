@@ -4,7 +4,7 @@ description: Python 3.12 + 의존성 + ffmpeg 를 준비한다.
 runs:
   using: composite
   steps:
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@v7
       with:
         python-version: "3.12"
         cache: pip
