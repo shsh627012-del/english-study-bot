@@ -1,8 +1,9 @@
 """한국어 기계번역 (한국어 ON 일 때만 호출).
 
 MyMemory 무료 API — 키 불필요, 익명은 하루 사용량 제한이 있다.
-실측상 이디엄이 든 예문은 직역된다("cut corners" → "모서리를 자르면").
-그래서 결과는 항상 ko_origin="machine" 으로 기록하고 화면에 "(자동번역)" 을 붙인다.
+실측상 이디엄이 든 예문은 직역돼 뜻이 틀어진다
+("that's a long shot" → "오래 걸린다는 것"). 그래서 **영영 정의만** 번역하고
+예문은 번역하지 않는다. 결과는 ko_origin="machine" 으로 기록하고 "(자동번역)" 을 붙인다.
 """
 from __future__ import annotations
 
@@ -34,7 +35,7 @@ def en_to_ko(text: str) -> str | None:
 
 
 def fill_korean(exp: dict) -> bool:
-    """비어 있는 한국어만 채운다. 사람 번역(tatoeba)은 건드리지 않는다. 바뀌었으면 True."""
+    """정의의 한국어가 비어 있으면 채운다. 바뀌었으면 True."""
     changed = False
     try:
         if not exp.get("meaning_ko") and exp.get("definition_en"):
@@ -42,12 +43,6 @@ def fill_korean(exp: dict) -> bool:
             if ko:
                 exp["meaning_ko"], exp["ko_origin"] = ko, "machine"
                 changed = True
-        for ex in exp.get("examples", []):
-            if not ex.get("ko"):
-                ko = en_to_ko(ex["en"])
-                if ko:
-                    ex["ko"], ex["ko_origin"] = ko, "machine"
-                    changed = True
     except QuotaExceeded as e:
         print(f"  [번역] {e} 나머지는 다음에 채웁니다.")
     except Exception as e:                        # 번역이 안 돼도 발송은 계속한다

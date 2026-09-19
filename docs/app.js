@@ -97,7 +97,7 @@ function cardHTML(e, opts = {}) {
     return `<p><span class="en">${esc(x.en)}</span>
       <a class="src" href="${esc(s.url || '#')}" target="_blank" rel="noopener">${esc(shortSource(s))}</a>
       ${x.audio ? '<span title="원어민 녹음">🎙</span>' : ''}
-      ${koHTML(x.ko, x.ko_origin)}${audio}</p>`;
+      ${audio}</p>`;
   }).join('');
 
   const links = [

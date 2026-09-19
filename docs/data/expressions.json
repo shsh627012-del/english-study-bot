@@ -15,8 +15,8 @@
       "examples": [
         {
           "en": "We don't have enough money to pay for everything, so we'll have to cut corners somewhere.",
-          "ko": "모든 비용을 지불하기에 충분한 자금이 없으므로 어딘가 모서리를 잘라야 할 것입니다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/corner"
@@ -25,8 +25,8 @@
         },
         {
           "en": "I never cut corners.",
-          "ko": "나는 결코 모서리를 자르지 않는다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Tatoeba #8865135",
             "url": "https://tatoeba.org/en/sentences/show/8865135"
@@ -38,8 +38,8 @@
         },
         {
           "en": "You should never cut corners on safety.",
-          "ko": "안전을 위해 모서리를 자르면 절대 안 됩니다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/corner"
@@ -80,8 +80,8 @@
       "examples": [
         {
           "en": "He was finally getting the hang of his job.",
-          "ko": "그는 마침내 자신의 일에 매달려 있었다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/hang"
@@ -90,8 +90,8 @@
         },
         {
           "en": "I'll get the hang of it.",
-          "ko": "내가 알아서 할게.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Tatoeba #2546082",
             "url": "https://tatoeba.org/en/sentences/show/2546082"
@@ -103,8 +103,8 @@
         },
         {
           "en": "She's getting the hang of driving.",
-          "ko": "그녀는 운전에 익숙해지고 있습니다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/hang"
@@ -145,8 +145,8 @@
       "examples": [
         {
           "en": "I hope to double my profits, but I know that's a long shot.",
-          "ko": "수익을 두 배로 늘리고 싶지만, 오래 걸린다는 것을 알고 있습니다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/long%20shot"
@@ -155,8 +155,8 @@
         },
         {
           "en": "This is a long shot.",
-          "ko": "이것들은 상당히 길다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Tatoeba #9711624",
             "url": "https://tatoeba.org/en/sentences/show/9711624"
@@ -168,8 +168,8 @@
         },
         {
           "en": "The horse was a long shot, but we bet on him anyway.",
-          "ko": "말은 길었지만, 어쨌든 우리는 그에게 내기를 걸었습니다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/long%20shot"
@@ -210,8 +210,8 @@
       "examples": [
         {
           "en": "We've done enough work for now: let's call it a day.",
-          "ko": "지금은 충분한 작업을 마쳤습니다. 하루라고 부릅시다.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/call"
@@ -220,8 +220,8 @@
         },
         {
           "en": "Tom called it a day.",
-          "ko": "톰은 그날을 하루라고 불렀어요.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Tatoeba #1543969",
             "url": "https://tatoeba.org/en/sentences/show/1543969"
@@ -233,8 +233,8 @@
         },
         {
           "en": "It's getting late. I think we should call it a night.",
-          "ko": "늦어지고 있습니다. 하룻밤이라고 불러야 할 것 같아요.",
-          "ko_origin": "machine",
+          "ko": null,
+          "ko_origin": null,
           "source": {
             "name": "Merriam-Webster Learner's",
             "url": "https://www.learnersdictionary.com/definition/call"

@@ -154,10 +154,9 @@ def handle_command(text: str) -> None:
         on = bool(state_file.get("korean", config.KOREAN_DEFAULT))
         telegram.send_message(
             f"한국어 표시: <b>{'켜짐' if on else '꺼짐'}</b>\n\n"
-            + ("다음 카드부터 한국어 뜻이 붙습니다. 사람 번역이 없으면 기계번역이며 "
-               f"<i>{config.MT_LABEL}</i> 로 표시됩니다.\n"
-               "⚠️ 기계번역은 이디엄을 직역하는 경우가 많습니다 (예: cut corners → 모서리를 자르다). "
-               "영영 정의를 기준으로 보세요."
+            + ("다음 카드부터 <b>영영 정의</b> 아래에 한국어 번역이 붙습니다 "
+               f"(기계번역, <i>{config.MT_LABEL}</i> 표시). 예문은 번역하지 않습니다.\n"
+               "자연스러운 뜻은 🇰🇷 네이버 사전 버튼으로 확인하세요."
                if on else "영영 정의만 표시합니다. 켜려면 /korean on")
         )
         return

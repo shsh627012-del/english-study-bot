@@ -73,10 +73,6 @@ def render_card(exp: dict, header: str, korean: bool = False) -> str:
         src = ex.get("source", {})
         mic = " 🎙" if ex.get("audio") else ""       # 원어민 녹음이 있는 예문
         lines.append(f"{i}. {esc(ex['en'])}  [{_link(_short_source(src), src.get('url'))}]{mic}")
-        if korean:
-            ko = _ko_line(ex.get("ko"), ex.get("ko_origin"))
-            if ko:
-                lines.append(ko)
 
     if exp.get("source", {}).get("type") == "youtube" and exp["source"].get("title"):
         lines += ["", f"📺 {_link(exp['source']['title'], exp['source'].get('ref'))}"]
@@ -243,9 +239,6 @@ def make_quiz(exp: dict, others: list[dict],
         ko = _ko_line(exp.get("meaning_ko"), exp.get("ko_origin"))
         if ko:
             lines.append(ko)
-    if korean and ex.get("ko"):
-        tag = f" {config.MT_LABEL}" if ex.get("ko_origin") == "machine" else ""
-        lines.append(f"    <i>{esc(ex['ko'])}</i>{esc(tag)}")
     lines += ["", "빈칸에 들어갈 표현은?"]
     keyboard = [
         [{"text": t, "callback_data": f"q:{exp['id']}:{'c' if ok else 'w'}"}]
