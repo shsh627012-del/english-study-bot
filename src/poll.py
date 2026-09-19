@@ -109,6 +109,7 @@ def handle_message(msg: dict) -> None:
         "무엇을 도와드릴까요?\n\n"
         "• 유튜브·기사 링크를 보내면 <b>표현 추출 대기열</b>에 담아요\n"
         "• /korean on · off   한국어 뜻 표시\n"
+        "• /count 1 · 2   하루 새 표현 개수\n"
         "• /stats 진도   /due 오늘 복습   /help 도움말"
     )
 
@@ -124,7 +125,23 @@ def handle_command(text: str) -> None:
             "정의와 예문은 전부 사전·코퍼스 원문이고, 출처 링크를 눌러 직접 확인할 수 있어요.\n\n"
             "• 유튜브·기사 링크를 보내면 <b>표현 추출 대기열</b>에 적립\n\n"
             "/korean on · off   한국어 뜻 표시 (기본 꺼짐, 켜면 기계번역에 (자동번역) 표시)\n"
+            "/count 1 · 2   하루 새 표현 개수\n"
             "/stats 진도   /due 오늘 복습   /pool 남은 표현"
+        )
+        return
+
+    if cmd == "count":
+        arg = (text.split()[1:] or [""])[0]
+        state_file = store.load_state()
+        if arg.isdigit() and int(arg) in config.NEW_PER_DAY_CHOICES:
+            state_file["new_per_day"] = int(arg)
+            store.save_state(state_file)
+        n = state_file.get("new_per_day", config.NEW_PER_DAY)
+        choices = " · ".join(f"/count {c}" for c in config.NEW_PER_DAY_CHOICES)
+        telegram.send_message(
+            f"하루 새 표현: <b>{n}개</b>\n\n"
+            f"다음 아침 카드부터 적용됩니다. 바꾸려면 {choices}\n"
+            "<i>복습 카드는 개수와 상관없이 그날 예정된 만큼 옵니다.</i>"
         )
         return
 

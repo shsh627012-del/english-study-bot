@@ -180,7 +180,7 @@ def run_morning(dry: bool) -> int:
     expressions = store.load_expressions()
     state = store.load_srs()
 
-    new_items = pick_new(expressions, config.NEW_PER_DAY)
+    new_items = pick_new(expressions, store.new_per_day())
     review_ids = [
         cid for cid in srs.due_cards(state)
         if (e := store.find_expression(expressions, cid)) and e.get("status") == "active"
@@ -239,6 +239,10 @@ def make_quiz(exp: dict, others: list[dict],
 
     lines = ["<b>🌙 오늘의 복습 퀴즈</b>", "", esc(blanked), "",
              f"💡 <i>{esc(exp['definition_en'])}</i>"]
+    if korean:
+        ko = _ko_line(exp.get("meaning_ko"), exp.get("ko_origin"))
+        if ko:
+            lines.append(ko)
     if korean and ex.get("ko"):
         tag = f" {config.MT_LABEL}" if ex.get("ko_origin") == "machine" else ""
         lines.append(f"    <i>{esc(ex['ko'])}</i>{esc(tag)}")
@@ -261,7 +265,10 @@ def run_evening(dry: bool) -> int:
 
     others = [e for e in expressions if e["id"] not in ids]
     for exp in todays:
-        quiz = make_quiz(exp, others, korean=store.korean_enabled())
+        korean = store.korean_enabled()
+        if korean and not dry:
+            translate.fill_korean(exp)             # 아침에 한국어가 꺼져 있었으면 여기서 채운다
+        quiz = make_quiz(exp, others, korean=korean)
         if not quiz:
             continue
         text, keyboard = quiz
@@ -281,6 +288,7 @@ def run_evening(dry: bool) -> int:
     else:
         path = _voice_path(target)
         if path:
+            target["pronunciation"]["tts_file"] = f"audio/{path.name}"
             try:
                 send_voice(path, caption=(
                     "🗣 <b>섀도잉</b> — 듣고 그대로 따라 말해보세요.\n"
@@ -290,6 +298,7 @@ def run_evening(dry: bool) -> int:
                 print(f"  [경고] 섀도잉 음성 전송 실패: {e}")
 
     if not dry:
+        store.save_expressions(expressions)       # 번역·음성 경로를 저장해 다음엔 재사용
         store.append_log("push", mode="evening", count=len(todays))
     print(f"저녁 발송 완료 — 퀴즈 {len(todays)}개")
     return 0

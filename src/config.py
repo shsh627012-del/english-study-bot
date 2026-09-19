@@ -34,7 +34,8 @@ MERRIAM_WEBSTER_KEY = os.getenv("MERRIAM_WEBSTER_KEY", "")
 TZ = ZoneInfo("Asia/Seoul")
 
 # ── 학습량 ──────────────────────────────────────────────────────────────
-NEW_PER_DAY = 2          # 아침에 새로 배울 표현 개수
+NEW_PER_DAY = 2          # 아침에 새로 배울 표현 개수 (기본값. 텔레그램 /count 로 바꾼다)
+NEW_PER_DAY_CHOICES = (1, 2)
 MAX_REVIEWS_PER_DAY = 6  # 하루 복습 카드 상한 (밀려도 폭주하지 않게)
 POOL_MIN = 20            # 풀이 이 아래로 떨어지면 ingest 가 표현을 보충한다
 

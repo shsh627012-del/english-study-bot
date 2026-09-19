@@ -140,6 +140,12 @@ def korean_enabled() -> bool:
     return bool(load_state().get("korean", config.KOREAN_DEFAULT))
 
 
+def new_per_day() -> int:
+    """하루 새 표현 개수. 텔레그램 /count 로 바꾼다."""
+    n = load_state().get("new_per_day", config.NEW_PER_DAY)
+    return n if n in config.NEW_PER_DAY_CHOICES else config.NEW_PER_DAY
+
+
 def mw_budget_left() -> int:
     """오늘 남은 Merriam-Webster 쿼리 수 (무료 키: 하루 1000)."""
     used = load_state().get("mw_queries", {})
