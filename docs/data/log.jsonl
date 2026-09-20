@@ -24,3 +24,4 @@
 {"at": "2026-09-20T01:03:38+00:00", "date": "2026-09-20", "event": "sent", "mode": "morning", "kind": "new", "id": "exp_0006", "text": "on the fence"}
 {"at": "2026-09-20T01:03:38+00:00", "date": "2026-09-20", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0001", "text": "cut corners"}
 {"at": "2026-09-20T01:03:38+00:00", "date": "2026-09-20", "event": "push", "mode": "morning", "new": 2, "review": 1}
+{"at": "2026-09-20T14:25:17+00:00", "date": "2026-09-20", "event": "report", "days": 7}
