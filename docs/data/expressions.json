@@ -270,8 +270,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/bush"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "다른 것에 대해 이야기함으로써 무언가를 말하는 것을 피하기 위해",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "Stop beating around the bush and tell me why you're here.",
@@ -317,7 +317,7 @@
         "dict_word": "beat",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/b/bush0001.mp3",
         "mw_audio_word": "bush",
-        "tts_file": null,
+        "tts_file": "audio/exp_0005.ogg",
         "source_clip": null
       },
       "source": {
@@ -325,7 +325,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:48:56+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
@@ -338,8 +338,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/fence"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "무언가에 대해 결정할 수 없음",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "He tried to persuade those still (sitting) on the fence to vote in his favor.",
@@ -385,7 +385,7 @@
         "dict_word": "fence",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/f/fence001.mp3",
         "mw_audio_word": "fence",
-        "tts_file": null,
+        "tts_file": "audio/exp_0006.ogg",
         "source_clip": null
       },
       "source": {
@@ -393,7 +393,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:00+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {

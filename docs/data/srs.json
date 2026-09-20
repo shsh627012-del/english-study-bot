@@ -9,7 +9,7 @@
           "grade": "unknown"
         }
       ],
-      "sent_count": 1
+      "sent_count": 2
     },
     "exp_0002": {
       "box": 2,
@@ -42,6 +42,18 @@
           "grade": "too_easy"
         }
       ],
+      "sent_count": 1
+    },
+    "exp_0005": {
+      "box": 1,
+      "due": "2026-09-21",
+      "history": [],
+      "sent_count": 1
+    },
+    "exp_0006": {
+      "box": 1,
+      "due": "2026-09-21",
+      "history": [],
       "sent_count": 1
     }
   }
