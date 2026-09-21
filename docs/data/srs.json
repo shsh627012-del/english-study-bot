@@ -9,7 +9,7 @@
           "grade": "unknown"
         }
       ],
-      "sent_count": 2
+      "sent_count": 3
     },
     "exp_0002": {
       "box": 2,
@@ -48,11 +48,23 @@
       "box": 1,
       "due": "2026-09-21",
       "history": [],
-      "sent_count": 1
+      "sent_count": 2
     },
     "exp_0006": {
       "box": 1,
       "due": "2026-09-21",
+      "history": [],
+      "sent_count": 2
+    },
+    "exp_0007": {
+      "box": 1,
+      "due": "2026-09-22",
+      "history": [],
+      "sent_count": 1
+    },
+    "exp_0008": {
+      "box": 1,
+      "due": "2026-09-22",
       "history": [],
       "sent_count": 1
     }
