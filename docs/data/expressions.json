@@ -539,8 +539,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/top"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "무언가에 대해 빠르게 생각함으로써 즉시",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "Off the top of my head, I can think of three people who might be interested.",
@@ -583,7 +583,7 @@
         "dict_word": "head",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/top00001.mp3",
         "mw_audio_word": "top",
-        "tts_file": null,
+        "tts_file": "audio/exp_0009.ogg",
         "source_clip": null
       },
       "source": {
@@ -591,7 +591,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:10+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
@@ -604,8 +604,8 @@
         "name": "Wiktionary",
         "url": "https://en.wiktionary.org/wiki/blessing_in_disguise"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "최선인 것처럼 보이는 불행.",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "It's a blessing in disguise.",
@@ -654,7 +654,7 @@
         "dict_word": "blessing",
         "mw_audio": null,
         "mw_audio_word": null,
-        "tts_file": null,
+        "tts_file": "audio/exp_0010.ogg",
         "source_clip": null
       },
       "source": {
@@ -662,7 +662,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:18+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
