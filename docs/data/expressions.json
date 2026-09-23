@@ -675,8 +675,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/jump"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "무언가를 얻거나 달성하기 위해 복잡하거나 성가신 일련의 일을 하다",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "We had to jump through a lot of hoops to get a loan from the bank.",
@@ -719,7 +719,7 @@
         "dict_word": "hoops",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/j/jump0001.mp3",
         "mw_audio_word": "jump",
-        "tts_file": null,
+        "tts_file": "audio/exp_0011.ogg",
         "source_clip": null
       },
       "source": {
@@ -727,7 +727,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:27+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
@@ -740,8 +740,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/limb"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "위험하거나 위험한 상황 또는 상황",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "She went out on a limb to help you.",
@@ -784,7 +784,7 @@
         "dict_word": "limb",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/l/limb0001.mp3",
         "mw_audio_word": "limb",
-        "tts_file": null,
+        "tts_file": "audio/exp_0012.ogg",
         "source_clip": null
       },
       "source": {
@@ -792,7 +792,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:34+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
