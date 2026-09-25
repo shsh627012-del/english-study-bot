@@ -925,8 +925,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/cold%20feet"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "계획한 일을 하지 못하게 할 만큼 강한 걱정이나 의심",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "He was going to ask her to marry him, but he got cold feet and couldn't do it.",
@@ -972,7 +972,7 @@
         "dict_word": "cold",
         "mw_audio": null,
         "mw_audio_word": "cold feet",
-        "tts_file": null,
+        "tts_file": "audio/exp_0015.ogg",
         "source_clip": null
       },
       "source": {
@@ -980,7 +980,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:51+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
@@ -993,8 +993,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/run"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "고려되고 승인될 수 있도록 (무언가를) (누군가에게) 말하기 위해.",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "You'd better run this past the boss.",
@@ -1034,7 +1034,7 @@
         "dict_word": "run",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/r/run00001.mp3",
         "mw_audio_word": "run",
-        "tts_file": null,
+        "tts_file": "audio/exp_0016.ogg",
         "source_clip": null
       },
       "source": {
@@ -1042,7 +1042,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:49:55+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
