@@ -1055,8 +1055,8 @@
         "name": "Wiktionary",
         "url": "https://en.wiktionary.org/wiki/swamped"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "매우 바쁨; 할 일이 너무 많음",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "They have been swamped ever since they started advertising.",
@@ -1099,7 +1099,7 @@
         "dict_word": "swamped",
         "mw_audio": null,
         "mw_audio_word": null,
-        "tts_file": null,
+        "tts_file": "audio/exp_0017.ogg",
         "source_clip": null
       },
       "source": {
@@ -1107,7 +1107,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:50:00+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     },
     {
@@ -1120,8 +1120,8 @@
         "name": "Merriam-Webster Learner's",
         "url": "https://www.learnersdictionary.com/definition/ball"
       },
-      "meaning_ko": null,
-      "ko_origin": null,
+      "meaning_ko": "특히 중요한 일을 하지 않음으로써 실수를 할 수 있습니다.",
+      "ko_origin": "machine",
       "examples": [
         {
           "en": "I think the mayor dropped the ball by not hiring more police officers.",
@@ -1167,7 +1167,7 @@
         "dict_word": "drop",
         "mw_audio": "https://media.merriam-webster.com/audio/prons/en/us/mp3/b/ball0001.mp3",
         "mw_audio_word": "ball",
-        "tts_file": null,
+        "tts_file": "audio/exp_0018.ogg",
         "source_clip": null
       },
       "source": {
@@ -1175,7 +1175,7 @@
         "ref": null
       },
       "created_at": "2026-09-18T23:50:03+00:00",
-      "status": "pool",
+      "status": "active",
       "priority": 0
     }
   ]
