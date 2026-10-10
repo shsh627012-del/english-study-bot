@@ -169,3 +169,10 @@
 {"at": "2026-10-09T02:55:32+00:00", "date": "2026-10-09", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0003", "text": "a long shot"}
 {"at": "2026-10-09T02:55:32+00:00", "date": "2026-10-09", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0007", "text": "bite the bullet"}
 {"at": "2026-10-09T02:55:32+00:00", "date": "2026-10-09", "event": "push", "mode": "morning", "new": 0, "review": 6}
+{"at": "2026-10-10T02:17:13+00:00", "date": "2026-10-10", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0001", "text": "cut corners"}
+{"at": "2026-10-10T02:17:14+00:00", "date": "2026-10-10", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0005", "text": "beat around the bush"}
+{"at": "2026-10-10T02:17:14+00:00", "date": "2026-10-10", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0006", "text": "on the fence"}
+{"at": "2026-10-10T02:17:15+00:00", "date": "2026-10-10", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0002", "text": "get the hang of"}
+{"at": "2026-10-10T02:17:15+00:00", "date": "2026-10-10", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0003", "text": "a long shot"}
+{"at": "2026-10-10T02:17:16+00:00", "date": "2026-10-10", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0007", "text": "bite the bullet"}
+{"at": "2026-10-10T02:17:16+00:00", "date": "2026-10-10", "event": "push", "mode": "morning", "new": 0, "review": 6}
