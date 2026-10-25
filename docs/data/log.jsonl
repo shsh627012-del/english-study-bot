@@ -283,3 +283,4 @@
 {"at": "2026-10-25T01:05:01+00:00", "date": "2026-10-25", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0003", "text": "a long shot"}
 {"at": "2026-10-25T01:05:01+00:00", "date": "2026-10-25", "event": "sent", "mode": "morning", "kind": "review", "id": "exp_0007", "text": "bite the bullet"}
 {"at": "2026-10-25T01:05:01+00:00", "date": "2026-10-25", "event": "push", "mode": "morning", "new": 0, "review": 6}
+{"at": "2026-10-25T14:43:13+00:00", "date": "2026-10-25", "event": "report", "days": 7}
